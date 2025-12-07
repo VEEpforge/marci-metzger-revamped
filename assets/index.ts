@@ -1,4 +1,5 @@
 import contact_photo from './contact-featured-photo.jpg';
+import marci_photo from './marci-metzger.png';
 import hero_background_1 from './feature_1.png';
 import hero_background_2 from './feature_2.png';
 import hero_background_3 from './feature_3.png';
@@ -20,4 +21,4 @@ export const hero_background_images = [
   hero_background_8
 ];
 
-export { contact_photo };
+export { contact_photo, marci_photo };
