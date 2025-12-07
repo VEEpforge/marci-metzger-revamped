@@ -8,11 +8,13 @@ const recognition = [
   "Realtor for nearly 3 decades!",
   "Owner of the Ridge Realty Group",
   "Top Pahrump Residential Sales",
+  "LV Top 100 Residential Sales 2019",
+  "Veteran-Friendly Agent - Veterans United(R)"
 ]
 
 const About = () => {
   return (
-    <section className="w-full bg-background p-[clamp(16px,4vw,40px)]">      
+    <section id="about" className="w-full bg-background p-[clamp(16px,4vw,40px)]">      
       <div className="flex flex-col lg:grid lg:grid-cols-12 gap-4">
         <div className="hidden lg:visible lg:col-span-1 lg:flex items-center">
           <h2 className="font-bold">[ABOUT]</h2>
@@ -38,13 +40,12 @@ const About = () => {
                     {index < recognition.length - 1 && <Separator className="my-2" />}
                   </div>
                 ))}
-                <Separator className="my-2" />
+                <Separator />
               </div>
               <div className="flex items-end justify-end">
                 <Button size='lg'>LEARN MORE</Button>
               </div>
             </div>
-          
           </div>
         </div>
       </div>
