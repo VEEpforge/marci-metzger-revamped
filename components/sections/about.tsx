@@ -31,7 +31,7 @@ const About = () => {
             <p>[RECOGNITION]</p>
             <div className="flex flex-row justify-between">
               <div className="font-bold uppercase">
-                <Separator className="my-2" />
+                <Separator className="mb-2" />
                 {recognition.map((item, index) => (
                   <div key={index}>
                     <div className="flex flex-row gap-2">
@@ -40,7 +40,7 @@ const About = () => {
                     {index < recognition.length - 1 && <Separator className="my-2" />}
                   </div>
                 ))}
-                <Separator />
+                <Separator className="mt-2"/>
               </div>
               <div className="flex items-end justify-end">
                 <Button size='lg'>LEARN MORE</Button>
