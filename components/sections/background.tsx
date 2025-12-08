@@ -9,7 +9,7 @@ const stats = [
     label: "Pahrump Residential Sales"
   },
   {
-    stat: "90",
+    stat: "90+",
     label: "clients in 2021"
   },
   {
@@ -34,7 +34,7 @@ const Background = () => {
           <div className='col-span-4 flex items-starat justify-start'>
             <h2 className='text-[clamp(20px,4vw,36px)] font-bold'>GET IT SOLD</h2>
           </div>
-          <div className='col-span-4 col-start-5 flex flex-col gap-4 font-bold'>
+          <div className='col-span-4 col-start-5 flex flex-col gap-4 text-xl leading-tight font-semibold'>
             {/* <p className='uppercase text-right'>[Proven Results, Year After Year]</p> */}
             <p>Our commitment is simple: deliver record‑breaking results while raising the bar every single year. When you work with us, you’re backed by a team that never stops learning, improving, and winning for our clients.</p>
             {/* <p className='uppercase text-right'>[Don’t Just List It… Sell It Fast & High]</p> */}

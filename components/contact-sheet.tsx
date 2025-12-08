@@ -56,7 +56,7 @@ const ContactSheet = () => {
               <Textarea id="sheet-message" placeholder="Type your message here." />
             </div>
             <div className="flex justify-end">
-              <Button type="submit">SEND MESSAGE</Button>
+              <Button size="lg" type="submit">SEND MESSAGE</Button>
             </div>
           </div>
         </div>

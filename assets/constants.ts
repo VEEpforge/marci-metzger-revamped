@@ -40,3 +40,11 @@ export const listings = [
     classname: "col-span-6 col-start-7 my-10"
   }
 ]
+
+import menu_featured_photo from './menu-featured-photo.jpg'
+
+export const menu_feature = {
+  image: menu_featured_photo,
+  label: '370 N Bannavitch St',
+  link: 'https://www.zillow.com/homedetails/370-N-Bannavitch-St-Pahrump-NV-89060/122074635_zpid/',
+}

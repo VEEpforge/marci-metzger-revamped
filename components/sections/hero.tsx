@@ -32,7 +32,7 @@ const Hero = () => {
           <div className="col-span-6">
             <p className='text-[clamp(20px,4vw,36px)] leading-tight font-semibold tracking-tight'>{hero_content.description}</p>
           </div>
-          <div className='col-span-6 flex items-end justify-end flex-col'>
+          <div className='col-span-6 flex items-end justify-end flex-col text-right'>
             <p className='font-bold'>[{property_highlight.label}]</p>
             <p className='font-semibold'>{property_highlight.name}</p>
             <p className='font-semibold'>{property_highlight.year}</p>

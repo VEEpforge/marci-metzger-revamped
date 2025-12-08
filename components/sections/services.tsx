@@ -66,7 +66,7 @@ const Services = () => {
               <AccordionItem key={index} value={service.value}>
                 <AccordionTrigger className='text-[clamp(20px,4vw,36px)] font-bold leading-tight tracking-tight'>{service.title}</AccordionTrigger>
                 <AccordionContent>
-                  <p className='text-base'>
+                  <p className='text-base font-semibold'>
                     {service.description}
                   </p>
                 </AccordionContent>

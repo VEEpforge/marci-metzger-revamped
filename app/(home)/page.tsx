@@ -13,7 +13,6 @@ export default function Home() {
       <About />
       <Services />
       <Properties />
-      {/* <div className="w-full h-screen"></div> */}
       <Footer />
     </main>
   );
