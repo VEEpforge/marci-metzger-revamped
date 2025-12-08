@@ -2,9 +2,7 @@ import { contact_photo } from "@/assets";
 import { Button } from "@/components/ui/button"
 import {
   Sheet,
-  SheetClose,
   SheetContent,
-  SheetFooter,
   SheetHeader,
   SheetTitle,
   SheetTrigger,

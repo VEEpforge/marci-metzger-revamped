@@ -2,7 +2,8 @@ export const navlinks = [
   { href: "/", label: "Home" },
   { href: "#properties", label: "Properties" },
   { href: "#about", label: "About" },
-  { href: "#search", label: "Home Search" },
+  { href: "#services", label: "Services" },
+  // { href: "#search", label: "Home Search" },
 ]
 
 import listing_1 from './1640_Moose_St.jpg';

@@ -7,8 +7,11 @@ import { FaYelp, FaFacebook, FaInstagram, FaLinkedin }from 'react-icons/fa'
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-background p-[clamp(16px,4vw,40px)]">
-      <Separator className="mb-4" />
+    <footer className="w-full bg-background px-[clamp(16px,4vw,40px)]">
+      <Separator className="mb-[clamp(16px,4vw,40px)]" />
+      <div className='flex flex-col gap-4'>
+
+      
       <div className='flex flex-col lg:grid lg:grid-cols-12 gap-4'>
         <div className='col-span-3 flex flex-col font-bold'>
           <h1 className='font-bold text-[clamp(20px,4vw,36px)]'>MARCI METZGER</h1>
@@ -62,6 +65,11 @@ const Footer = () => {
             <FaYelp size={48} className='hover:text-secondary transition cursor-pointer' />
           </div>
         </div>
+      </div>
+      <div className='flex flex-row w-full justify-between font-bold'>
+        <p>© 2025 MARCI METZGER</p>
+        <p>SITE BY <span className='hover:underline hover: underline-offset-4 transition'>EAVILL</span></p>
+      </div>
       </div>
     </footer>
   )
