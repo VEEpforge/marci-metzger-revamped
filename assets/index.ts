@@ -3,6 +3,7 @@ import marci_photo from './marci-metzger.png';
 import services_photo from './services-featured-photo.jpg';
 import services_photo_2 from './services-featured-photo-2.jpg';
 import footer_photo from './footer-featured-photo.png';
+import intro_featured_photo from './intro-featured-photo.jpg';  
 import hero_background_1 from './feature_1.png';
 import hero_background_2 from './feature_2.png';
 import hero_background_3 from './feature_3.png';
@@ -34,4 +35,4 @@ export const affiliations_images = [
   pahrump_valley
 ];
 
-export { contact_photo, marci_photo, services_photo, services_photo_2, footer_photo };
+export { contact_photo, marci_photo, services_photo, services_photo_2, footer_photo, intro_featured_photo };
